@@ -166,19 +166,7 @@ registerBlockType("chrisbibby/block-mapbox-track-block", {
                 { value: "mapbox/light-v10", label: "Light" },
                 { value: "mapbox/dark-v10", label: "Dark" },
                 { value: "mapbox/outdoors-v11", label: "Outdoors" },
-                { value: "mapbox/satellite-v9", label: "Satellite" },
-                {
-                  value: "cmbibby/ck0dj9q8e0ujm1cns3qngsgq5",
-                  label: "Chris DRA Map"
-                },
-                {
-                  value: "cmbibby/cj7fv7f6m36672rpaodfp0k5h",
-                  label: "Desert Plains"
-                },
-                {
-                  value: "cmbibby/cjyvh38ea11ds1cry0h0mp7ce",
-                  label: "Cali Terrain"
-                }
+                { value: "mapbox/satellite-v9", label: "Satellite" }
               ]}
               onChange={value => setAttributes({ mapStyle: value })}
             />

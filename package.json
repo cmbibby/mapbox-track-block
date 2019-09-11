@@ -1,0 +1,14 @@
+{
+  "name": "mapbox-track-block-cgb-guten-block",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "@tmcw/togeojson": "^3.0.1",
+    "cgb-scripts": "1.20.0"
+  }
+}

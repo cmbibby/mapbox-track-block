@@ -15,6 +15,7 @@ This block allows you to upload a GPX file to the media library and display it o
 
 ## Known Issues / Limitations
 
+- This is still a work in progress
 - Only one map to be displayed per page or post
 - Large track files might cause some performance issues as the track data is loaded from a script in the DOM on the frontend.
 - Some GPX files with multiple tracks may not render.

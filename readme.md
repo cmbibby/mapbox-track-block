@@ -1,5 +1,7 @@
 # Mapbox Track Block
 
+![](screen_preview.gif)
+
 ## About
 
 Add maps from your GPX files to your posts and pages. 

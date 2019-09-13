@@ -38,3 +38,12 @@ function mbtb_activate() {
 
 register_activation_hook( __FILE__, 'mbtb_activate' );
 
+/**
+ * Resgister uninstall hook and delete the options we created.
+ */
+
+function mbtb_uninstall() {
+	 delete_option( 'mbtb_option_name' );
+}
+
+register_uninstall_hook( __FILE__, 'mbtb_deactivate' );

@@ -5,7 +5,7 @@
  *
  * Set mapbox access token and map height
  *
- * @since   1.0.0
+ * @since   1.0.1
  * @package Chrisbibby/MapBoxTrackBlock
  */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -13,6 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class MapBoxTrackBlockSettingsPage {
+
 
 
 	/**
